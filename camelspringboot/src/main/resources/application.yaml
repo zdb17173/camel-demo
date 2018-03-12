@@ -4,6 +4,20 @@ custom:
     bb: dsadsad
     cc: 111
 
+webSite:
+  routes:
+    test1:
+      template: "/test/test1"
+      service: "test/test1"
+      parameters:
+        curPage: "1"
+        pageSize: "100"
+    test2:
+      template: "/test/test2"
+      service: "test/test2"
+      parameters:
+        curPage: "1"
+        pageSize: "100"
 swaggerConfig:
   host: localhost:8080
 
