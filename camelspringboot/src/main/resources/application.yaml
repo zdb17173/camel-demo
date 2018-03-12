@@ -1,0 +1,34 @@
+custom:
+  configs:
+    aa: dsadsad
+    bb: dsadsad
+    cc: 111
+
+swaggerConfig:
+  host: localhost:8080
+
+server:
+  port: 8080
+  session:
+    timeout: 10
+
+
+spring:
+  freemarker:
+    cache: false
+    templateLoaderPath:
+      - "classpath:/templates/"
+      - "file:templates/"
+  devtools:
+    restart:
+      enabled: true
+      exclude: static/**,public/**,templates/**
+
+camel:
+  springboot:
+    name: "test"
+
+
+logging:
+#   config: file:config/logback.xml
+    config: classpath:logback.xml
