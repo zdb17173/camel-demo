@@ -17,7 +17,7 @@
     <properties>
         <com.fasterxml.jason.core.version>2.7.5</com.fasterxml.jason.core.version>
         <org.mybatis.version>3.4.0</org.mybatis.version>
-        <org.mysql.version>5.1.29</org.mysql.version>
+        <org.mysql.version>8.0.28</org.mysql.version>
 
         <slf4j.api.version>1.7.23</slf4j.api.version>
         <logback.version>1.2.1</logback.version>
