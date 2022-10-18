@@ -15,7 +15,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <com.fasterxml.jason.core.version>2.7.5</com.fasterxml.jason.core.version>
+        <com.fasterxml.jason.core.version>2.13.4.1</com.fasterxml.jason.core.version>
         <org.mybatis.version>3.4.0</org.mybatis.version>
         <org.mysql.version>5.1.29</org.mysql.version>
 
